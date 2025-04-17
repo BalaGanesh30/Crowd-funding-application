@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import API from "../../../uitiles/api"; // Import API service
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css"; // Import styles
-import background from "../../assets/background.jpg"; // Import Background Image
+import "react-toastify/dist/ReactToastify.css"; // Import styles// Import Background Image
 import { assets } from "../../assets/assets"; // Import Logo
 
 const SignupForm = () => {
@@ -54,7 +53,7 @@ const SignupForm = () => {
   return (
     <div
       className="fixed inset-0 bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${background})` }} // Apply Background Image
+      style={{ backgroundImage: `url(${assets.background})` }} // Apply Background Image
     >
       <div className="relative w-96 p-8 bg-white bg-opacity-90 shadow-2xl rounded-2xl">
         {/* Close Button */}

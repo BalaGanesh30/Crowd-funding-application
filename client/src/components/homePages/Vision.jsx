@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../../assets/assets";
 
 const Vision = () => {
   const articles = [
@@ -7,28 +8,28 @@ const Vision = () => {
       category: " Entrepreneurs",
       description:
         "From supporting small businesses to launching large-scale funding campaigns, Mr. Kasirajan has pioneered efforts in enabling entrepreneurs to turn their ideas into reality.",
-      image: "../src/assets/vision1.jpg",
+      image: assets.vision1,
     },
     {
       title: " Community Growth",
       category: " Ecosystem",
       description:
         "With a deep-rooted belief in collective progress, Mr. Kasirajan has created platforms connecting funders with dreamers, bridging financial gaps and driving impactful community projects.",
-      image: "../src/assets/vision4.jpg",
+      image: assets.vision2,
     },
     {
       title: " Startup Dreams",
       category: " Startups",
       description:
         "Through innovative funding solutions, Mr. Kasirajan has opened doors for startups to access capital, helping them bring groundbreaking ideas to market.",
-      image: "../src/assets/vision3.jpg",
+      image: assets.vision3,
     },
     {
       title: "Revolutionizing Fundraising",
       category: " Technology",
       description:
         "With the launch of digital crowdfunding platforms, Mr. Kasirajan is on a mission to revolutionize fundraising by leveraging the power of online communities and social impact funding.",
-      image: "../src/assets/vision2.jpg",
+      image: assets.vision4,
     },
   ];
 

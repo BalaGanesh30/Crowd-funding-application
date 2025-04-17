@@ -4,8 +4,7 @@ import API from "../../../uitiles/api";
 import { useAuth } from "../../context/AuthContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import logo from "../../assets/logo.png"; // Import Logo
-import background from "../../assets/background.jpg"; // Import Background Image
+import { assets } from "../../assets/assets"; // Import Logo // Import Background Image
 
 const LoginForm = ({ closeModal }) => {
   const navigate = useNavigate();
@@ -59,7 +58,7 @@ const LoginForm = ({ closeModal }) => {
   return (
     <div
       className="fixed inset-0 bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${background})` }} // Use Background Image
+      style={{ backgroundImage: `url(${assets.background})` }} // Use Background Image
     >
       <div className="w-96 p-8 bg-white bg-opacity-90 shadow-2xl rounded-2xl relative">
         <button
@@ -71,7 +70,7 @@ const LoginForm = ({ closeModal }) => {
 
         {/* Logo and Name */}
         <div className="flex justify-center items-center mb-4">
-          <img src={logo} alt="Logo" className="h-16 mr-2" />
+          <img src={assets.logo} alt="Logo" className="h-16 mr-2" />
           <h1 className="text-3xl font-bold text-indigo-500">Crowd Funding</h1>
         </div>
 
