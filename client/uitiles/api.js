@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080/v1",
+  // baseURL: "http://localhost:8080/v1",
+   baseURL: "https://crowd-funding-application-server.onrender.com/v1",
 });
 
 // Attach token to requests
