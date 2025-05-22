@@ -4,7 +4,6 @@ import API from "../../../uitiles/api"; // Import API service
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Import styles
 import background from "../../assets/background.jpg"; // Import Background Image
-import logo from "../../assets/logo.png"; // Import Logo
 
 const SignupForm = () => {
   const navigate = useNavigate();
@@ -67,7 +66,7 @@ const SignupForm = () => {
 
         {/* Logo and Name */}
         <div className="flex justify-center items-center mb-4">
-          <img src={logo} alt="Logo" className="h-16 mr-2" />
+          <img src="Logo.png" alt="Logo" className="h-16 mr-2" />
           <h1 className="text-3xl font-bold text-indigo-500">Crowd Funding</h1>
         </div>
 
