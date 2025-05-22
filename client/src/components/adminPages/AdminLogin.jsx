@@ -4,7 +4,6 @@ import { toast, ToastContainer } from "react-toastify";
 import { useAuth } from "../../context/AuthContext";
 import API from "../../../uitiles/api";
 import background from "../../assets/background.jpg"; // Import Background Image
-import logo from "../../assets/logo.png"; // Import Logo
 
 const AdminLoginForm = () => {
   const navigate = useNavigate();
@@ -68,7 +67,7 @@ const AdminLoginForm = () => {
 
         {/* Logo and Name */}
         <div className="flex justify-center items-center mb-4">
-          <img src={logo} alt="Logo" className="h-16 mr-2" />
+          <img src="/Logo.png" alt="Logo" className="h-16 mr-2" />
           <h1 className="text-3xl font-bold text-indigo-500">Crowd Funding</h1>
         </div>
 
